@@ -2,7 +2,7 @@
  * Created by SamSung on 2015-01-21.
  */
 
-define(['../../js/app'], function(app){
+define(['app'], function(app){
     app.factory('getUser', function(){
         return function(callback){
             var users = [

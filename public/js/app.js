@@ -13,14 +13,14 @@ define([
         app.config(function($routeProvider){
             $routeProvider
                 .when('/home',angularAMD.route({
-                    templateUrl: 'views/home.html',
+                    templateUrl: 'Home/home.html',
                     controller: 'homeCtrl',
-                    controllerUrl: 'Controller/homeCtrl'
+                    controllerUrl: 'Home/homeCtrl'
                 }))
                 .when('/profile',angularAMD.route({
-                    templateUrl: 'views/profile.html',
+                    templateUrl: 'Profile/profile.html',
                     controller: 'profileCtrl',
-                    controllerUrl: 'Controller/profileCtrl'
+                    controllerUrl: 'Profile/profileCtrl'
                 }))
                 .otherwise('/home');
         });

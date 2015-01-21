@@ -37,9 +37,11 @@ require.config({
             'Service': '../Common/services',
             'Resource': '../Common/resources',
             'Filters': '../Common/filters',
-            'Directive': '../Common/directives'
+            'Directive': '../Common/directives',
 
             //page
+            'Home': '../Home',
+            'Profile': '../Profile'
         }
     },
 
